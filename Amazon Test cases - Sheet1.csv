@@ -1,0 +1,75 @@
+  ,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+Test Case ID,Test Case Name,Description,Pre-condition,Expected Result,Actual Result,Status
+,,,,,,
+TC001,Amazon Logo,To verify place of logo,"Launch website :  
+www.amazon.com ","Logo should be present at the
+upper left most corner of the
+web page
+",Same as ER,Pass
+TC002,,To verify font name of logo,,Font should be aria ,Same as ER,Pass
+TC003,,To verify font size of the logo,,Font size should be 18',Same as ER,Pass
+TC004,,To verify color of the logo,,"Color of 'amazon' should be in
+white color",Same as ER,Pass
+TC005,,To verify the color of 'arrow' in logo,,"Color of arrow symbol in the logo
+should be of orange color",Same as ER,Pass
+TC006,,To verify logo is clickable,,Logo should be clickable,Same as ER,Pass
+TC007,,To verify when clicked it redirects,,"When clicked it should redirects 
+to home page of amazon site",Same as ER,Pass
+TC008,,To verify '.in' in logo,,".in' should be in lower case and 
+of size 4'",Same as ER,Pass
+TC009,Mouse hover on Logo,To verify mouse hover on logo,,"When hover a mouse, border 
+box should appear ",Same as ER,Pass
+TC010,,To verify cursor pointer,,"When hover a mouse,cursor 
+pointer should turned into hand
+symbol",Same as ER,Pass
+TC011,Search Dropdown,To verify place of dropdown,,"Drop down box should be located 
+next to amazon logo",Same as ER,Pass
+TC012,,To verify mouse hover,,"Dropdown should get highlighted
+on mouse hover",Same as ER,Pass
+TC013,,"To verify text appear when mouse
+hover",,"search in' should shown when 
+mouse hover",Same as ER,Pass
+TC014,,To verify cursor pointer,,"Cursor pointer should turned into
+hand symbol on mouse hover",Same as ER,Pass
+TC015,,To verify dropdown is clickable,,Drop down should be clickable,Same as ER,Pass
+TC016,,To verify click,,"When clicked, it should show list
+of items inside it",Same as ER,Pass
+TC017,,To verify border highlight,,"When clicked, border should get
+highlighted to orange color",Same as ER,Pass
+TC018,Search Bar,To verify place of search bar,, ,Same as ER,Pass
+TC019,,To verify search bar is clickable,,Search bar should be clickable,Same as ER,Pass
+TC020,,To verify border highlight,,"When clicked the border should 
+get highlighted",Same as ER,Pass
+TC021,,To verify keyboard input,,"When clicked on search it should
+take input from keyboard",Same as ER,Pass
+TC022,,To verify placeholder text,,"Placeholder text 'search amazon'
+should be there",Same as ER,Pass
+TC023,,To verify keyboard input,,"When type any character it 
+should display related search
+options",Same as ER,Pass
+TC024,Search Button,To verify Search button is clickable,,"When clicked it should redirects 
+to respected page",Same as ER,Pass
+TC025,,To verify button highlights,,"Button should get highlighted on
+mouse hover",Same as ER,Pass
+TC026,,To verify color of button,,"Color of search button should be 
+orange",Same as ER,Pass
+TC027,Language Drop-down,"To verify language drop down 
+place",,"Language drop down should be 
+next to search button",Same as ER,Pass
+TC028,,"To verify the short form of default 
+language should be displayed",,"Default language (i.e. EN) is
+displayed",Same as ER,Pass
+TC029,,"To verify language drop down 
+options",,"Ensure all available languages
+are listed correctly",Same as ER,Pass
+TC030,,"To verify language change func-
+tionality",,Changing the language should updates the website content clearly,Same as ER,Pass
+TC031,,To verify persistence of language selection,,The selected language should persists across different pages,Same as ER,Pass
+TC032,,To verify language reverts to the default after logout,,The language should reverts to default after logiing out,Same as ER,Pass
+TC033,,To verify mouse hover operation,,On mouse hover the list should be displayed,Same as ER,Pass
+TC034,,To verify click,,"On click, the list should get open in another window",Same as ER,Pass
+TC035,Accounts and Lists,To verify the place of Accounts and Lists menu,,Accounts and Lists should be located at upper right corner and right after Language menu,Same as ER,Pass
+TC036,,,,,,
