@@ -1,0 +1,66 @@
+Test Scenario ID,Test Scenario Title,Test Case ID
+TS_01,Verify Access to the Hiring Platform ,1. TC_URL_01
+,,2. TC_URL_02
+,,3. TC_URL_03
+TS_02,Verify Job Details section ,1. TC_Job_01
+,,2. TC_Job_02
+,,3. TC_Job_03
+,,4. TC_Job_04
+,,5. TC_Job_05
+,,6. TC_Job_06
+,,7. TC_Job_07
+,,8. TC_Job_08
+,,9. TC_Job_09
+,,10. TC_Job_10
+,,11. TC_Job_11
+,,12. TC_Job_12
+,,13. TC_Job_13
+,,14. TC_Job_14
+,,15. TC_Job_15
+,,16. TC_Job_16
+,,17. TC_Job_17
+,,18. TC_Job_18
+,,19. TC_Job_19
+,,20. TC_Job_20
+,,21. TC_Job_21
+,,22. TC_Job_22
+,,23. TC_Job_23
+,,24. TC_Job_24
+,,25. TC_Job_25
+,,26. TC_Job_26
+TS_03,Verify Salary Range section,1. TC_Salary_01
+,,2. TC_Salary_02
+,,3. TC_Salary_03
+,,4. TC_Salary_04
+,,5. TC_Salary_05
+,,6. TC_Salary_06
+TS_04,Check How to apply section,1. TC_Apply_01
+,,2. TC_Apply_02
+,,3. TC_Apply_03
+,,4. TC_Apply_04
+TS_05,Verify Job Description and Skills Required,1. TC_Skills_01
+,,2. TC_Skills_02
+TS_06,Check Contanct Person Details,1. TC_Contact_01
+,,2. TC_Contact_02
+,,3. TC_Contact_03
+,,4. TC_Contact_04
+,,5. TC_Contact_05
+,,6. TC_Contact_06
+,,7. TC_Contact_07
+,,8. TC_Contact_08
+,,9. TC_Contact_09
+,,10. TC_Contact_10
+,,11. TC_Contact_11
+,,12. TC_Contact_12
+,,13. TC_Contact_13
+,,14. TC_Contact_14
+,,15. TC_Contact_15
+TS_07,Verify Captcha funtionality,1. TC_Captcha_01
+,,2. TC_Captcha_02
+TS_08,Verify submit button,1. TC_Submit_01
+,,2. TC_Submit_02
+,,3. TC_Submit_03
+,,4. TC_Submit_04
+TS_09,Verify Sending mails ,1. TC_Email_01
+,,2. TC_Email_02
+,,3. TC_Email_03
