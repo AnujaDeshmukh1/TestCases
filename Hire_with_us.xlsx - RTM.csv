@@ -1,0 +1,66 @@
+Requirement No,Requirement Description,Test Scenario ID,Test Case ID,Status
+111,Access to Hiring Platform,TS_01,TC_URL_01,Pass
+,,,TC_URL_02,Pass
+,,,TC_URL_03,Pass
+222,Job Details Section,TS_02,TC_Job_01,Pass
+,,,TC_Job_02,Pass
+,,,TC_Job_03,Pass
+,,,TC_Job_04,Pass
+,,,TC_Job_05,Fail
+,,,TC_Job_06,Pass
+,,,TC_Job_07,Pass
+,,,TC_Job_08,Pass
+,,,TC_Job_09,Fail
+,,,TC_Job_10,Fail
+,,,TC_Job_11,Pass
+,,,TC_Job_12,Fail
+,,,TC_Job_13,Pass
+,,,TC_Job_14,Pass
+,,,TC_Job_15,Pass
+,,,TC_Job_16,Pass
+,,,TC_Job_17,Pass
+,,,TC_Job_18,Pass
+,,,TC_Job_19,Pass
+,,,TC_Job_20,Pass
+,,,TC_Job_21,Pass
+,,,TC_Job_22,Pass
+,,,TC_Job_23,Pass
+,,,TC_Job_24,Pass
+,,,TC_Job_25,Pass
+,,,TC_Job_26,Fail
+333,Salary Range Section,TS_03,TC_Salary_01,Pass
+,,,TC_Salary_02,Pass
+,,,TC_Salary_03,Pass
+,,,TC_Salary_04,Pass
+,,,TC_Salary_05,Fail
+,,,TC_Salary_06,Fail
+444,How To Apply,TS_04,TC_Apply_01,Pass
+,,,TC_Apply_02,Pass
+,,,TC_Apply_03,Pass
+,,,TC_Apply_04,Pass
+555,Job Description and Skills Required,TS_05,TC_Skills_01,Pass
+,,,TC_Skills_02,Pass
+666,Contact Person Details,TS_06,TC_Contact_01,Pass
+,,,TC_Contact_02,Pass
+,,,TC_Contact_03,Fail
+,,,TC_Contact_04,Fail
+,,,TC_Contact_05,Fail
+,,,TC_Contact_06,Pass
+,,,TC_Contact_07,Fail
+,,,TC_Contact_08,Pass
+,,,TC_Contact_09,Pass
+,,,TC_Contact_10,Fail
+,,,TC_Contact_11,Fail
+,,,TC_Contact_12,Pass
+,,,TC_Contact_13,Pass
+,,,TC_Contact_14,Fail
+,,,TC_Contact_15,Fail
+777,Captcha Functionality,TS_07,TC_Captcha_01,Pass
+,,,TC_Captcha_02,Pass
+888,Submit Button,TS_08,TC_Submit_01,Pass
+,,,TC_Submit_02,Pass
+,,,TC_Submit_03,Pass
+,,,TC_Submit_04,Pass
+999,Sending Emails,TS_09,TC_Email_01,Pass
+,,,TC_Email_02,Pass
+,,,TC_Email_03,Pass

@@ -1,0 +1,87 @@
+Test Scenario ID,Test Case ID,Test Title,Prerequisite,Steps,Test Data,Expected Result,Actual Result,Status,Comment
+TS_01,TC_URL_01,To Verify that the URL is clickable or not,1.Tesometer App,"1. Open Tesometer App.
+2. Click on Hiring Platform URL",,URL should be clickable,URL is clickable,Pass,
+,TC_URL_02,"To verify that after clicking, the URL redirects to correct page","1. Tesometer App
+2. URL","1. Open Tesometer App.
+2. Click on Hiring Platform URL",,URL should be redirect to hiring platform,URL redirects to hiring platform,Pass,
+,TC_URL_03,To verify if the user can acces the hiring platform by entering the URL in browser,"1. Browser
+2.URL","1. Go to any browser
+2. Enter the URL in URL field
+",,User should access the hiring platform by entering the URL in browser,Hiring platform is accessible by entering the URL in browser,Pass,
+TS_02,TC_Job_01,To verify that all the fields in job details section are active ,Hire with us form,"1. Click hire with us form
+2. Click on all the fields present in Job Details section",,All fields should be active,All fields are active,Pass,
+,TC_Job_02,To verify that if Job Title field is mandatory then asterisk(*) should be displayed,,1. Check asterisk is present or not,,Asterisk should be displayed,Asterisk is displayed,Pass,
+,TC_Job_03,To verify if field kept blank it should show error message,Job Title Field,1. Keep the field blank,,Error message should be displayed,"""This field is mandatory"" Message is showing",Pass,
+,TC_Job_04,To verify that placeholder text is showing properly,,1.Check placeholder text,,"Placeholder text should be in grey  color with ""Job tiltle"" and its example ","Placeholder is in grey color and showing ""Job Title"" e.g. ""Test Engineer""",Pass,
+,TC_Job_05,To check title should not be less than 1 char or not more than 50 char,,"1. Enter one char
+2. Enter thirty lenth job title
+3. Enter 49 length title
+4. Enter 51 length job title",,Field length should be min 1 char max 50 char ,Field length accepting more than 50 char,Fail,
+,TC_Job_06,"To check if clicked on field cursor should be visible and when type, placeholder text should get disappeared",,1. Click on field,,Cursor should be appeared and placeholder text should get disappeared after typing,Cursor is appearing and placeholder text is disappeared,Pass,
+,TC_Job_07,To check placeholder text for Number of vacancies field is showing properly,Number of Vacancies Field,1. Check placeholder text,,Placeholder text should be in grey  color with Number of Vacancies and its example ,"Placeholder is in black color and showing ""Number of Vacancies"" e.g. 2",Pass,
+,TC_Job_08,To check if clicked on field cursor should be visible and placeholder text should get disappeared after typing,,1. Click on field,,Cursor should be appeared and placeholder text should get disappeared,Cursor is appearing and placeholder text is disappeared,Pass,
+,TC_Job_09,To verify field is allowing numeric value > 0 && < 100,,1. Enter a number > 0 && < 100,,Field should allow numeric value > 0 && < 100,Field is allowing <0 && >100 values,Fail,
+,TC_Job_10,To check if field is allowing decimal value,,1. Enter a decimal number,,Field should not allow decimal number,Field is allowing decimal number,Fail,
+,TC_Job_11,To check field is allowing space ,,1. Give space in between numbers,,Field should not accept space,Field is not accepting space,Pass,
+,TC_Job_12,"To verify that if field is mandatory then asterisk(*) should be displayed, if field kept blank then error message should be displayed",,"1. Check asterisk is present or not 
+2. Keep the field blank",,"1. Asterisk mark should be there
+2. Error message ""Please enter value"" should displayed if kept blank","1. Asterisk mark is there
+2. Error message is showing ""Please enter value"" ",Fail,
+,TC_Job_13,To check label of the dropdown is showing properly,Job type field,1. Check the label,,"Lable should be ""Job type"" with example","Lable is ""Job type"" e.g. ""Full time""",Pass,
+,TC_Job_14,To check on clicking the dropdown arrow it should display the list containing values,,1. Click on dropdown arrow,,List should be displayed after clicking on dropdown arrow,List is displaying after clicking on dropdown arrow,Pass,
+,TC_Job_15,To verify scroll down functionality is working properly,,1. Scroll the scrollbar,,Scroll bar should scroll properly,Scroll functionality is working properly,Pass,
+,TC_Job_16,To check there should not any blank value present in the list,,1. Check all values,,There should not be any blank value,No blank value in the list,Pass,
+,TC_Job_17,To verify the mandatory field 'Job type' indicated by * sign,,1. Check asterisk is present or not,,Asterisk should be displayed,Asterisk is displayed,Pass,
+,TC_Job_18,To check label of the dropdown is showing properly,Work mode field,1. Check the label,,"Lable should be ""Work mode"" with example","Lable is ""Work mode"" e.g. ""Work from office""",Pass,
+,TC_Job_19,To check on clicking the dropdown arrow it should display the list containing values,,1. Click on dropdown arrow,,List should be displayed after clicking on dropdown arrow,List is displaying after clicking on dropdown arrow,Pass,
+,TC_Job_20,To verify the mandatory field 'Work mode' indicated by * sign,,1. Check asterisk is present or not,,Asterisk should be displayed,Asterisk is displayed,Pass,
+,TC_Job_21,To verify dropdown lable is showing properly,"1. Min Experience
+2. Max Experience",1. Check the labels,,"Lable should be ""Min Experience"" and ""Max Experience"" with example",Lables are showing properly,Pass,
+,TC_Job_22,To verify dropdown values under field 'Min exp' & 'Max exp',,1. Click on dropdown arrow,,List should be displayed after clicking on dropdown arrow,List is displaying after clicking on dropdown arrow,Pass,
+,TC_Job_23,To verify the mandatory field 'min exp and max exp' indicated by * sign,,1. Check asterisk is present or not,,Asterisk should be displayed,Asterisk is displayed,Pass,
+,TC_Job_24,To check 'Select city' field textholder,Select city field,1. Check placeholder text,,placeholder text should be showing properly,Placeholder is showing properly,Pass,
+,TC_Job_25,To verify field only allow char data,,1. Enter char data,,Field should only allow char data,Field is only allowing char data,Pass,
+,TC_Job_26,To verify field alignment when multiple options are selected,,Select multiple options ,,UI should not get disturbed,UI is getting disturb,Fail,
+TS_03,TC_Salary_01,To verify Title ,Salary range field ,1. Check title is showing properly or not,,Title should be showing properly.,Title is showing properly with 'Salary range(yearly)',Pass,
+,TC_Salary_02,To verify placeholder text in fields,,1. Check placeholder text of all the fields in 'Salary range' section,,Placeholder text should display properly with example,Placeholder text is showing properly 'Min salary e.g. 300000' and 'Max salary e.g. 500000',Pass,
+,TC_Salary_03,To check fields are allowing numeric data,,1. Enter numeric data,,Fields should allow numeric data,Fields are allowing numeric data,Pass,
+,TC_Salary_04,To check fields are allowing spaces,,1. Enter space,,Fields should not allow spaces,Fields are not allowing spaces,Pass,
+,TC_Salary_05,To verify fields are not allowing 0 value,,1. Enter 00,,"Fields should not allow 0 value, if entered 0 then error must be shown",Fields are not allowing 0 value,Fail,
+,TC_Salary_06,To verify fields are allowing alphanumeric data,,"1. Enter 11 LPA in min field
+2. Enter 12 LPA in max field",,Fields should allow alphanumeric data,Fields are allowing alphanumeric data,Fail,
+TS_04,TC_Apply_01,To verify all dropdown lables in 'How to apply' section,How to apply section,1. Check the labels,,"1. For first dropdown lable should be 'Select application method'
+2. For second dropdown lable should be 'Availability to join'",Lables are showing properly,Pass,
+,TC_Apply_02,To check dropdown arrow functionality,,1. Click on dropdown arrow,,"After clicking on dropdown arrow, it should display a list containing values",List is displaying after clicking on dropdown arrow,Pass,
+,TC_Apply_03,To verify mandatory fields are marked with (*),,1. Check fields in how to apply section,,Dropdown fields in how to apply section should be marked with (*),Both the fields are marked with (*),Pass,
+,TC_Apply_04,To verify keyboard coordination with dropdown,,1. Enter values by typing on keyboard,,Dropdown values should be accessible and selected by typing an alphabet from keyboard ,Dropdown values are accessible using keyboard,Pass,
+TS_05,TC_Skills_01,To verify field in 'Job description & skills required' section allows alphanumeric data,Job Description & Skills required section,"1. Enter Char data in field
+2. Enter Numeric data in field",,Field should allow alphanumeric data,Field is allowing alphanumeric data,Pass,
+,TC_Skills_02,To verify buttons on formatting toolbar,,1. Click and check all the buttons,,Buttons on toolbar should be clickable and should apply respective formatting,Buttons are working properly,Pass,
+   TS_06,TC_Contact_01,To verify all fields in 'Contact person details' are labled properly,Contact Person Details section,1. Check fields in Contact Person Details Section,,Labels on thefields should be displayed properly,Lables are showing properly,Pass,
+,TC_Contact_02,To verify that all th mandatory fields are marked with(*),,1. Check all the mandatory fields,,Mandatory fields should be marked with (*),Mandatory fields are marked with(*),Pass,
+,TC_Contact_03,To check length of name field,,1. Enter data,,Length of name field should be 100 char,Field allowing more than 100 char data,Fail,
+,TC_Contact_04,To check 'Name' field allows numeric data,,1. Enter numeric data,,Field should not allow numeric data,Field allows numeric data,Fail,
+,TC_Contact_05,To check name field should accept special symbol,,1. Enter special symbol,,Field should not accept special symbol,Field is not allowing special symbol,Fail,
+,TC_Contact_06,To verify 'Email' field by entering valid email id,,1. Enter: testometer@gmail.com,,Field should allow valid email id,Field is allowing valid email id,Pass,
+,TC_Contact_07,To verify 'Email' field by entering invalid email id,,1. Enter: $%^@#test@gmail.com,,Field should not allow invalid email id,Field is allowing invalid email id,Fail,
+,TC_Contact_08,To verify 'Mobile' field by entering valid mobile number,,1. Enter valid mobile number,,Field should accept valid mobile number,Field is accepting valid mobile number,Pass,
+,TC_Contact_09,To verify user can copy and paste the mobile number in sfield or not,,copy and paste mobile number,,User should copy and paste mobile number,User can be able to copy paste number in field,Pass,
+,TC_Contact_10,To verify by entering less numbers ,,Enter: 854796189,,Field should not accept less numbers,Field is accepting less numbers,Fail,
+,TC_Contact_11,To verify by entering more numbers ,,Enter: 854796189478,,Field should not accept more numbers,Field is accepting more numbers,Fail,
+,TC_Contact_12,To check field allows char data,,Enter: abcdefghtij,,Field should not accept char data,Field is not accepting char data,Pass,
+,TC_Contact_13,To verify 'Company Name' field allows alphanumeric data,,Enter: vision11,,Field should allow data,Field is allowing alphanumeric data,Pass,
+,TC_Contact_14,To check spelling,,Check spellings are correct or not,,Spellings should be correct,Contact Person' is incorrect,Fail,
+,TC_Contact_15,To check length of the 'company name' field is 50 char ,,"1. Enter 49 char
+2. Enter 50 char
+3. Enter 51 char
+",,Field should allow upto 50 char,Field allows more than 50 char,Fail,
+TS_07,TC_Captcha_01,To verify the checkbox is clickable ,Captcha Section,Click the checkbox,,Checkbox should be clickable,Checkbox is clickable,Pass,
+,TC_Captcha_02,To check captcha is loaded properly,,Check the captcha,,Captcha should be loaded properly,Captcha is loaded properly,Pass,
+TS_08,TC_Submit_01,To verify that submit button is clickable or not,Submit Button,Click on button,,Submit button should be clickable,Submit button is clickable,Pass,
+,TC_Submit_02,To verify submit button properly aligned or not,,Check button alignement,,Button should be properly aligned,Button is properly aligned,Pass,
+,TC_Submit_03,To check label text properly displayed or not,,Check label text,,Label text should be properly displayed,Label text is showing properly,Pass,
+,TC_Submit_04,To verify user should able to submit data with only valid data,,Enter valid data and submit the form,,User should able to submit data using only valid data,User is able to submit form with valid data,Pass,
+TS_09,TC_Email_01,To verify emails are sent to 'testometer admin' and 'contact person' ,Submit button,"1. Enter valid data
+2. Submit the form",,"After clicking on submit button, mails should be sent to testometer admin and contact person",Emails are sent to testometer admin and contact person,Pass,
+,TC_Email_02,To verify emails are received at receiving end,,Check by login to receiving end,,Emails should be received at receiving end,Emails are received at receiving end,Pass,
+,TC_Emial_03,To check the Email content displayed properly,,Check email content,,Email content should display in proper alignment with proper text,Email content is showing properly,Pass,

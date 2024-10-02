@@ -1,0 +1,14 @@
+Defect_ID,Functionality,Description,Expected Result,Actual Result
+Defect_01,Job Title Field,Job Title Field should not be less than 1 char or not more than 50 char,Field should allow upto 50 char,Field is allowing more than 50 char
+Defect_02,Number of Vacancy Field,Field should allow min 1 and max 100 number as vacancies,Field should allow >0 && <100 vacancies,Field is allowing <0 && >100 vacancies
+Defect_03,Number of Vacancy Field,Field should not allow decimal number,Field should only allow whole number,Field is allowing decimal number
+Defect_04,Number of Vacancy Field,Field is mandatory but asterisk(*) is missing,Asterisk should be displayed ,Asterisk(*) is missing
+Defect_05,Select City Field,When selected multiple options the field alignment is getting disturb,Field alignment should be proper,UI is getting disturb
+Defect_06,Salary Range Field,Salary range should not be 00 to 00,Fields should not allow 0 value,Fields are allowing 0 value
+Defect_07,Salary Range Field,Field should allow to type salary range in LPA format,Field should allow alphanumeric data,Field is allowing only numeric data
+Defect_08,Contact Person Details Field,Name of contact person should be upto 100 char,Field should only allow upto 100 char,Field is allowing more than 100 char
+Defect_09,Contact Person Details Field,Name of contact person can not be number,Field should not allow numeric data,Field is allowing numeric data
+Defect_10,Contact Person Details Field,Name of contact person should not be be special symbol,Field should not accept special symbol,Field is allowing special symbol
+Defect_11,Email: Contact Person Details,Contact person Email ID should be valid,Field should not accept invalid ID,Field is allowing invalid ID
+Defect_12,Mobile Number: Contact Person Details,Contact person mobile number must be of 10 digit,Field should accept only 10 digit number,Field is allowing <10 and >10 numbers
+Defect_13,Contact Person Details Field,All the spellings should be correct,Person' should be there instead of 'Personal',Contact Personal Details is showing
